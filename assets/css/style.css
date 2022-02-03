@@ -207,3 +207,52 @@ section#product{
     left: -9px;
     border-radius: 30% 5% 15% 25%;
 }
+section#testimoni{
+    margin:155px 303px 100px 303px;
+    text-align: center;
+    position: relative;
+}
+#testimoni > img{
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    z-index: -1;
+}
+#testimoni .item .quotes{
+    font-size: 36px;
+    line-height: 50px;
+}
+#testimoni .user-testimoni{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#testimoni .user-testimoni img{
+    width: 90px;
+    margin-right: 20px;
+}
+#testimoni .user-testimoni .user-details{
+    text-align: left;
+}
+#testimoni .user-testimoni .user-details p{
+    margin-bottom: 6px;
+}
+section#statistic{
+    justify-content: center;
+    display: flex;
+    padding: 100px 292px 100px 291px;
+}
+#statistic .number{
+    padding: 100px 50px 100px 50px;
+}
+
+#statistic .number h3{
+    font-size: 32px;
+    text-align: center;
+}
+#statistic .number p{
+    font-size: 20px;
+    text-align: center;
+}
